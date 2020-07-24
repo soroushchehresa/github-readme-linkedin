@@ -1,3 +1,3 @@
 # github-readme-linkedin
 
-<img src="https://github-readme-linkedin.herokuapp.com??username=soroush-chehres" width="100%" />
+<img src="https://github-readme-linkedin.herokuapp.com??username=soroush-chehresa" width="100%" />
