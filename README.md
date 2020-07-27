@@ -6,8 +6,6 @@ Get dynamically generated images from your Linkedin profile on your readmes!
 </div>
 
 <br>
-<br>
-
 
 ## Methods
 
