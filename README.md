@@ -57,7 +57,7 @@ yarn && yarn dev
 yarn && yarn build && yarn start
 ```
 
-## Data Scraper
+## Data scraper
 [github-readme-linkedin-scraper](https://github.com/soroushchehresa/github-readme-linkedin-scraper)
 
 ## Technologies
