@@ -7,6 +7,11 @@ Get dynamically generated images from your Linkedin profile on your readmes!
 
 <br>
 
+## Example
+[Example.md](/Example.md)
+
+<br>
+
 ## Methods
 
 #### Experience
