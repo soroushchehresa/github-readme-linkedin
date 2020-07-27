@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "./src/routes/experience",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/experience",
+      "dest": "/src/routes/experience"
+    }
+  ]
+}

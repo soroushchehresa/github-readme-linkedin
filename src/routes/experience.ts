@@ -1,9 +1,9 @@
-import { Request, Response } from 'express';
+import { NowRequest, NowResponse } from '@vercel/node';
 import _ from 'lodash';
 import API from '../helpers/api';
 import ExperienceRenderer from '../renderers/experience';
 
-export default async (req: Request, res: Response) => {
+export default async (req: NowRequest, res: NowResponse) => {
   res.setHeader('Content-Type', 'image/svg+xml');
   if (_.get(req, ['query', 'username'])) {
     const limit = _.get(req, ['query', 'limit'], null);
