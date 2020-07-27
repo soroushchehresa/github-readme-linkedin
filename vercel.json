@@ -1,14 +1,46 @@
 {
   "builds": [
     {
+      "src": "./src/routes/education.ts",
+      "use": "@now/node"
+    },
+    {
       "src": "./src/routes/experience.ts",
+      "use": "@now/node"
+    },
+    {
+      "src": "./src/routes/languages.ts",
+      "use": "@now/node"
+    },
+    {
+      "src": "./src/routes/skills.ts",
+      "use": "@now/node"
+    },
+    {
+      "src": "./src/routes/user.ts",
       "use": "@now/node"
     }
   ],
   "routes": [
     {
+      "src": "/education",
+      "dest": "/src/routes/education.ts"
+    },
+    {
       "src": "/experience",
       "dest": "/src/routes/experience.ts"
+    },
+    {
+      "src": "/languages",
+      "dest": "/src/routes/languages.ts"
+    },
+    {
+      "src": "/skills",
+      "dest": "/src/routes/skills.ts"
+    },
+    {
+      "src": "/user",
+      "dest": "/src/routes/user.ts"
     }
   ]
 }
