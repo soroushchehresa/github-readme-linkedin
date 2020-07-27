@@ -4,6 +4,9 @@ import API from '../helpers/api';
 import SkillsRenderer from '../renderers/skills';
 
 export default async (req: Request, res: Response) => {
+  res.setHeader('Cache-Control', 'private, no-cache, no-store, must-revalidate');
+  res.setHeader('Expires', '-1');
+  res.setHeader('Pragma', 'no-cache');
   res.setHeader('Content-Type', 'image/svg+xml');
   if (_.get(req, ['query', 'username'])) {
     const limit = _.get(req, ['query', 'limit'], null);
