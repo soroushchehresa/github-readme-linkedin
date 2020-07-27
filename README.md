@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/soroushchehresa/github-readme-linkedin/master/linkedin-github.png" width="150" />
 
 # GitHub Readme LinkedIn
-Get dynamically generated images from your LinkedIn profile on your readmes!
+Get dynamically generated images from your LinkedIn profile on your GitHub readmes!
 
 </div>
 
