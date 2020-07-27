@@ -1,6 +1,6 @@
 <div align="center">
-  
-# Github Readme Linkedin
+
+# GitHub Readme Linkedin
 Get dynamically generated images from your Linkedin profile on your readmes!
 
 </div>
