@@ -3,8 +3,8 @@
 <br>
 <img src="https://raw.githubusercontent.com/soroushchehresa/github-readme-linkedin/master/linkedin-github.png" width="150" />
 
-# GitHub Readme Linkedin
-Get dynamically generated images from your Linkedin profile on your readmes!
+# GitHub Readme LinkedIn
+Get dynamically generated images from your LinkedIn profile on your readmes!
 
 </div>
 
@@ -39,7 +39,7 @@ https://github-readme-linkedin.vercel.app/user?username=soroush-chehresa
 ## Parameters
 |    Name    |               Example               |        Description         |
 | ---------- | ----------------------------------- | -------------------------- |
-| username   | ?username=soroush-chehresa          | Your Linkedin username.    |
+| username   | ?username=soroush-chehresa          | Your LinkedIn username.    |
 | limit      | ?username=soroush-chehresa&limit=10 | Count of the lists items.  |
 
 ## Let's run
