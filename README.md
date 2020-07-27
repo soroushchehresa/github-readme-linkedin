@@ -10,8 +10,6 @@ Get dynamically generated images from your Linkedin profile on your readmes!
 ## Example
 #### [Example.md](/Example.md)
 
-<br>
-
 ## Methods
 
 #### Experience
@@ -34,15 +32,12 @@ https://github-readme-linkedin.vercel.app/languages?username=soroush-chehresa
 ```MD
 https://github-readme-linkedin.vercel.app/user?username=soroush-chehresa
 ```
-<br>
 
 ## Parameters
 |    Name    |               Example               |        Description         |
 | ---------- | ----------------------------------- | -------------------------- |
 | username   | ?username=soroush-chehresa          | Your Linkedin username.    |
 | limit      | ?username=soroush-chehresa&limit=10 | Count of the lists items.  |
-
-<br>
 
 ## Let's run
 #### Development
@@ -54,20 +49,14 @@ yarn && yarn dev
 yarn && yarn dev
 ```
 
-<br>
-
 ## Data Scraper
 [github-readme-linkedin-scraper](https://github.com/soroushchehresa/github-readme-linkedin-scraper)
-
-<br>
 
 ## Technologies
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [Node.js](https://github.com/nodejs/node)
 - [Express](https://expressjs.com)
 - [Serverless](https://vercel.com)
-
-<br>
 
 ## Deploy
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/soroushchehresa/github-readme-linkedin)
