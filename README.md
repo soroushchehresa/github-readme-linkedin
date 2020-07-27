@@ -58,7 +58,7 @@ yarn && yarn build && yarn start
 ## Technologies
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [Node.js](https://github.com/nodejs/node)
-- [Express](https://expressjs.com)
+- [Express.js](https://github.com/expressjs/express)
 - [Serverless](https://vercel.com)
 
 ## Deploy
