@@ -46,7 +46,7 @@ yarn && yarn dev
 ```
 #### Production
 ```bash
-yarn && yarn dev
+yarn && yarn build && yarn start
 ```
 
 ## Data Scraper
