@@ -15,37 +15,37 @@ Get dynamically generated images from your LinkedIn profile on your GitHub readm
 
 ## Usage
 ```MD
-<img src="https://github-readme-linkedin.vercel.app/METHOD?username=YOUR_LINKEDIN_USERNAME" />
+<img src="https://github-readme-linkedin.vercel.app/[METHOD]?username=[YOUR_LINKEDIN_USERNAME]" />
 ```
 
 ## Methods
 
 #### `/experience`
 ```MD
-https://github-readme-linkedin.vercel.app/experience?username=YOUR_LINKEDIN_USERNAME
+https://github-readme-linkedin.vercel.app/experience?username=[YOUR_LINKEDIN_USERNAME]
 ```
 #### `/education`
 ```MD
-https://github-readme-linkedin.vercel.app/education?username=YOUR_LINKEDIN_USERNAME
+https://github-readme-linkedin.vercel.app/education?username=[YOUR_LINKEDIN_USERNAME]
 ```
 #### `/skills`
 ```MD
-https://github-readme-linkedin.vercel.app/skills?username=YOUR_LINKEDIN_USERNAME
+https://github-readme-linkedin.vercel.app/skills?username=[YOUR_LINKEDIN_USERNAME]
 ```
 #### `/languages`
 ```MD
-https://github-readme-linkedin.vercel.app/languages?username=YOUR_LINKEDIN_USERNAME
+https://github-readme-linkedin.vercel.app/languages?username=[YOUR_LINKEDIN_USERNAME]
 ```
 #### `/user`
 ```MD
-https://github-readme-linkedin.vercel.app/user?username=YOUR_LINKEDIN_USERNAME
+https://github-readme-linkedin.vercel.app/user?username=[YOUR_LINKEDIN_USERNAME]
 ```
 
 ## Parameters
-|    Name    |                  Example                  |        Description         |
-| ---------- | ----------------------------------------- | -------------------------- |
-| username   | ?username=YOUR_LINKEDIN_USERNAME          | Your LinkedIn username.    |
-| limit      | ?username=YOUR_LINKEDIN_USERNAME&limit=10 | Count of the lists items.  |
+|    Name    |                   Example                   |        Description         |
+| ---------- | ------------------------------------------- | -------------------------- |
+| username   | ?username=[YOUR_LINKEDIN_USERNAME]          | Your LinkedIn username.    |
+| limit      | ?username=[YOUR_LINKEDIN_USERNAME]&limit=10 | Count of the lists items.  |
 
 ## Let's run
 #### Development
