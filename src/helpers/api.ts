@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 class API {
   private protocol: string = 'https' || process.env.API_PROTOCOL;
-  private baseURL: string = 'linkedin-scraper-github.herokuapp.com' || process.env.API_BASE_URL;
+  private baseURL: string = 'github-readme-linkedin-scraper.vercel.app' || process.env.API_BASE_URL;
   private path: string = 'api/en/v1' || process.env.API_PATH;
 
   constructor() {
