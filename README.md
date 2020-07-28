@@ -20,32 +20,22 @@ Get dynamically generated images from your LinkedIn profile on your GitHub readm
 
 ## Methods
 
-#### `/experience`
-```MD
-https://github-readme-linkedin.vercel.app/experience?username=[YOUR_LINKEDIN_USERNAME]
-```
-#### `/education`
-```MD
-https://github-readme-linkedin.vercel.app/education?username=[YOUR_LINKEDIN_USERNAME]
-```
-#### `/skills`
-```MD
-https://github-readme-linkedin.vercel.app/skills?username=[YOUR_LINKEDIN_USERNAME]
-```
-#### `/languages`
-```MD
-https://github-readme-linkedin.vercel.app/languages?username=[YOUR_LINKEDIN_USERNAME]
-```
-#### `/user`
-```MD
-https://github-readme-linkedin.vercel.app/user?username=[YOUR_LINKEDIN_USERNAME]
-```
+#### APP_URL = `https://github-readme-linkedin.vercel.app`
+
+|    URL    |                   Example                   |        Description         |
+| ---------- | ------------------------------------------- | -------------------------- |
+| `/experience` | `[APP_URL]/experience?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn experience section. |
+| `/education` | `[APP_URL]/education?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn education section. |
+| `/skills` | `[APP_URL]/skills?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn skills section. |
+| `/languages` | `[APP_URL]/languages?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn languages section. |
+| `/user` | `[APP_URL]/user?username=[YOUR_LINKEDIN_USERNAME]` | Your fullname, headline and location. |
+
 
 ## Parameters
-|    Name    |                   Example                   |        Description         |
-| ---------- | ------------------------------------------- | -------------------------- |
-| username   | ?username=[YOUR_LINKEDIN_USERNAME]          | Your LinkedIn username.    |
-| limit      | ?username=[YOUR_LINKEDIN_USERNAME]&limit=10 | Count of the lists items.  |
+|    Name    |                   Example                   |        Description         |  Required |
+| ---------- | ------------------------------------------- | -------------------------- | --------- |
+| username   | ?username=[YOUR_LINKEDIN_USERNAME]          | Your LinkedIn username.    | YES       |
+| limit      | ?username=[YOUR_LINKEDIN_USERNAME]&limit=10 | Count of the lists items.  | NO        |
 
 ## Let's run
 #### Development
