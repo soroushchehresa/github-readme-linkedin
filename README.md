@@ -11,7 +11,7 @@ Get dynamically generated images from your LinkedIn profile on your GitHub readm
 <br>
 
 ## Example
-#### [Example.md](/Example.md)
+#### [Profile readme](https://github.com/ssoroushhh)
 
 ## Usage
 ```MD
