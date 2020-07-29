@@ -4,14 +4,14 @@
 <img src="https://raw.githubusercontent.com/soroushchehresa/github-readme-linkedin/master/linkedin-github.png" width="150" />
 
 # GitHub Readme LinkedIn
-Get dynamically generated images from your LinkedIn profile on your GitHub readmes!
+Get dynamically generated images from your LinkedIn profile on your GitHub READMEs!
 
 </div>
 
 <br>
 
 ## Example
-#### [Profile readme](https://github.com/ssoroushhh)
+#### [Profile README](https://github.com/ssoroushhh)
 
 ## Usage
 ```MD
