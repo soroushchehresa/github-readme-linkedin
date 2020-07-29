@@ -28,7 +28,7 @@ Get dynamically generated images from your LinkedIn profile on your GitHub READM
 | `/education` | `[APP_URL]/education?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn education section. |
 | `/skills` | `[APP_URL]/skills?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn skills section. |
 | `/languages` | `[APP_URL]/languages?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn languages section. |
-| `/user` | `[APP_URL]/user?username=[YOUR_LINKEDIN_USERNAME]` | Your fullname, headline and location. |
+| `/user` | `[APP_URL]/user?username=[YOUR_LINKEDIN_USERNAME]` | Your Fullname, Headline and Location. |
 
 
 ## Parameters
