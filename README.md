@@ -74,3 +74,9 @@ You can deploy and use this project without any errors on your own Vercel instan
    ![](https://i.imgur.com/ngBYKat.png)
  1. <b>You're good to go. See your domains to use the API :)</b>
 </details>
+
+![https://vercel.com](https://res.cloudinary.com/anuraghazra/image/upload/v1597827714/powered-by-vercel_1_ug4uro.svg)
+
+Contributions are welcomed! <3
+
+Made with :heart: and TypeScript.
