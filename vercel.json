@@ -32,7 +32,7 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/src/images-renderer/routes/index.ts",
+      "dest": "/src/images-renderer/routes/index.ts"
     },
     {
       "src": "/data",
