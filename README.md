@@ -47,17 +47,30 @@ yarn && yarn dev
 yarn && yarn build && yarn start
 ```
 
-## Data scraper
-[github-readme-linkedin-scraper](https://github.com/soroushchehresa/github-readme-linkedin-scraper)
-
 ## Technologies
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [Node.js](https://github.com/nodejs/node)
 - [Express.js](https://github.com/expressjs/express)
 - [Serverless](https://vercel.com)
 
-## Deploy on your own Vercel instance
-
+## Deploy
+You can deploy and use this project without any errors on your own Vercel instance by the following steps:
 <details>
- <summary><b> Guide on setting up Vercel  🔨 </b></summary>
+ <summary><b>Steps  🔨 </b></summary>
+ 
+ 1. Go to [vercel.com](https://vercel.com/)
+ 1. Click on `Log in`  
+   ![](https://files.catbox.moe/tct1wg.png)
+ 1. Sign in with GitHub by pressing `Continue with GitHub`  
+   ![](https://files.catbox.moe/btd78j.jpeg)
+ 1. Sign into GitHub and allow access to all repositories, if prompted
+ 1. Fork this repo
+ 1. Go back to your [Vercel dashboard](https://vercel.com/dashboard)
+ 1. Select `Import Project`  
+   ![](https://i.imgur.com/yzVClIY.png)
+ 1. Select `Import a Git Repository`  
+   ![](https://i.imgur.com/8E96p4U.png)
+ 1. Select root and keep everything as is, just place your LinkedIn cookie called `li_at` as your environment variable named `LINKEDIN_TOKEN` and click `Deploy`
+   ![](https://i.imgur.com/ngBYKat.png)
+ 1. <b>You're good to go. See your domains to use the API :)</b>
 </details>
