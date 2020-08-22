@@ -11,7 +11,7 @@ Get dynamically generated images from your LinkedIn profile on your GitHub READM
 <br>
 
 ## Recommendation
-If you want to use this project on your GitHub profile I recommend you deploy it to your own [Vercel](https://vercel.app) instance with your LinkedIn token and use this project from your personal URLs by [Deploy section information](https://github.com/soroushchehresa/github-readme-linkedin/#Deploy) because this project uses my LinkedIn personal token and LinkedIn tokens have many limits that some of them could be down this project at any time!
+If you want to use this project on your GitHub profile I recommend you [deploy it to your own Vercel instance](https://github.com/soroushchehresa/github-readme-linkedin/#Deploy) with your LinkedIn token and use this project from your personal URLs because this project uses my LinkedIn personal token and LinkedIn tokens have many limits that some of them could be down this project at any time!
 
 Check out [this issue](https://github.com/soroushchehresa/github-readme-linkedin/issues/1) for more information...
 
@@ -61,11 +61,11 @@ yarn && yarn build && yarn start
 - [Serverless](https://vercel.com)
 
 ## Deploy
-You can deploy and use this project without any errors on your own Vercel instance by the following steps:
+You can deploy and use this project without any errors on your own [Vercel]](https://vercel.com) instance by the following steps:
 <details>
  <summary><b>Steps  🔨 </b></summary>
  
- 1. Go to [vercel.com](https://vercel.com/)
+ 1. Go to [vercel.com](https://vercel.com)
  1. Click on `Login`  
    ![](https://files.catbox.moe/tct1wg.png)
  1. Sign in with GitHub by pressing `Continue with GitHub`  
