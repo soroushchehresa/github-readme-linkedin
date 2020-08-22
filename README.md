@@ -15,8 +15,6 @@ If you want to use this project on your GitHub profile I recommend you [fork and
 
 Check out [this issue](https://github.com/soroushchehresa/github-readme-linkedin/issues/1) for more information...
 
-<br>
-
 ## Example
 [Example profile README](https://github.com/ssoroushhh)
 
