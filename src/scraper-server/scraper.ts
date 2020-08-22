@@ -120,7 +120,7 @@ function processCompanyPage(item: any, result: any) {
   }
 }
 
-export default async function (url: string) {
+export default async (url: string) => {
   let processMethod;
   if (url.match(/^https:\/\/www.linkedin.com\/in\//)) {
     processMethod = processPeopleProfile;
