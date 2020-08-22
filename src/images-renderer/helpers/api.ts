@@ -11,14 +11,13 @@ class API {
 
   getProfileData(username: string): Promise<any> {
     return new Promise((resolve, reject) => {
-      const URL = `${this.protocol}://${this.baseURL}/${this.root}/?username=${username}`;
+      const URL = `${this.protocol}://${this.baseURL}/${this.root}?username=${username}`;
       request.get(
         URL,
         {
           headers: this.getHeaders(),
         },
         (error, response, body) => {
-          console.log('XXXXXXXXXXXXXXXX', `${this.protocol}://${this.baseURL}/${this.root}/?username=${username}`);
           if (body) {
             const data = JSON.parse(body);
             if (_.get(data, 'result')) {
