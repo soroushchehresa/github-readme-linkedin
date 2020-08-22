@@ -43,7 +43,7 @@ Check out [this issue](https://github.com/soroushchehresa/github-readme-linkedin
 | limit      | ?username=[YOUR_LINKEDIN_USERNAME]&limit=10 | Count of the lists items.  | NO        |
 
 ## Deploy
-You can deploy and use this project without any errors on your own [Vercel]](https://vercel.com) instance by the following steps:
+You can deploy and use this project without any errors on your own [Vercel](https://vercel.com) instance by the following steps:
 <details>
  <summary><b>Steps  🔨 </b></summary>
  
