@@ -28,7 +28,7 @@
   "routes": [
     {
       "src": "/data",
-      "dest": "./src/scraper-server/index.ts"
+      "dest": "/src/scraper-server/index.ts"
     },
     {
       "src": "/education",
