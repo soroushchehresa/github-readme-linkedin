@@ -4,7 +4,7 @@ import _ from 'lodash';
 class API {
   private protocol: string = 'https' || process.env.API_PROTOCOL;
   private baseURL: string = 'github-readme-linkedin.vercel.app' || process.env.API_BASE_URL;
-  private root: string = 'data';
+  private root: string = 'data' || process.env.API_ROOT;
 
   constructor() {
   }
@@ -18,6 +18,7 @@ class API {
           headers: this.getHeaders(),
         },
         (error, response, body) => {
+          console.log('XXXXXXXXXXXXXX', body);
           if (body) {
             const data = JSON.parse(body);
             if (_.get(data, 'result')) {
