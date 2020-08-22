@@ -44,22 +44,6 @@ Check out [this issue](https://github.com/soroushchehresa/github-readme-linkedin
 | username   | ?username=[YOUR_LINKEDIN_USERNAME]          | Your LinkedIn username.    | YES       |
 | limit      | ?username=[YOUR_LINKEDIN_USERNAME]&limit=10 | Count of the lists items.  | NO        |
 
-## Let's run
-#### Development
-```bash
-yarn && yarn dev
-```
-#### Production
-```bash
-yarn && yarn build && yarn start
-```
-
-## Technologies
-- [TypeScript](https://github.com/microsoft/TypeScript)
-- [Node.js](https://github.com/nodejs/node)
-- [Express.js](https://github.com/expressjs/express)
-- [Serverless](https://vercel.com)
-
 ## Deploy
 You can deploy and use this project without any errors on your own [Vercel]](https://vercel.com) instance by the following steps:
 <details>
@@ -81,6 +65,14 @@ You can deploy and use this project without any errors on your own [Vercel]](htt
    ![](https://i.imgur.com/ngBYKat.png)
  1. You're good to go. See your domains to use the API!
 </details>
+
+## Technologies
+- [TypeScript](https://github.com/microsoft/TypeScript)
+- [Node.js](https://github.com/nodejs/node)
+- [Express.js](https://github.com/expressjs/express)
+- [Serverless](https://vercel.com)
+
+<br>
 
 ![https://vercel.com](https://res.cloudinary.com/anuraghazra/image/upload/v1597827714/powered-by-vercel_1_ug4uro.svg)
 
