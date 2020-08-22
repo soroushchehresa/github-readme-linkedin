@@ -56,5 +56,8 @@ yarn && yarn build && yarn start
 - [Express.js](https://github.com/expressjs/express)
 - [Serverless](https://vercel.com)
 
-## Deploy
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/soroushchehresa/github-readme-linkedin)
+## Deploy on your own Vercel instance
+
+<details>
+ <summary><b> Guide on setting up Vercel  🔨 </b></summary>
+</details>
