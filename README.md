@@ -20,7 +20,7 @@ Get dynamically generated images from your LinkedIn profile on your GitHub READM
 
 ## Methods
 
-**APP_URL = `https://github-readme-linkedin.vercel.app`**
+**APP_URL = [https://github-readme-linkedin.vercel.app](https://github-readme-linkedin.vercel.app)**
 
 |    URL    |                   Example                   |        Description         |
 | ---------- | ------------------------------------------- | -------------------------- |
