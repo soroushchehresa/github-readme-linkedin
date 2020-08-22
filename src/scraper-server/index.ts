@@ -1,10 +1,8 @@
 import { Request, Response } from 'express';
-import dotenv from 'dotenv';
 import _ from 'lodash';
 import scraper from './scraper';
 
 export default async (req: Request, res: Response) => {
-  dotenv.config();
   if (_.get(req, ['query', 'username'])) {
     try {
       const result = await scraper(`https://www.linkedin.com/in/${_.get(req, ['query', 'username'])}`);
