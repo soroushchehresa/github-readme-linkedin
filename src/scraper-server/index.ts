@@ -1,15 +1,13 @@
 import { Request, Response } from 'express';
-import scraper from './scraper';
 import dotenv from 'dotenv';
+import _ from 'lodash';
+import scraper from './scraper';
 
 export default async (req: Request, res: Response) => {
   dotenv.config();
-
-  if (!req.query.username) {
-    res.json({ error: 'A LinkedIn username is required.' });
-  } else {
+  if (_.get(req, ['query', 'username'])) {
     try {
-      const result = await scraper(`https://www.linkedin.com/in/${req.query.username}`);
+      const result = await scraper(`https://www.linkedin.com/in/${_.get(req, ['query', 'username'])}`);
       if (!result) {
         res.json({ error: 'The people/company has not been found.', result: null });
       } else {
@@ -18,5 +16,7 @@ export default async (req: Request, res: Response) => {
     } catch (e) {
       res.json({ error: e.message, result: null });
     }
+  } else {
+    res.json({ error: 'A LinkedIn username is required.' });
   }
 }
