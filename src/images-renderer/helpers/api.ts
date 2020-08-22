@@ -3,14 +3,15 @@ import _ from 'lodash';
 
 class API {
   private protocol: string = 'https' || process.env.API_PROTOCOL;
-  private baseURL: string = 'github-readme-linkedin-scraper.vercel.app' || process.env.API_BASE_URL;
+  private baseURL: string = 'github-readme-linkedin.vercel.app' || process.env.API_BASE_URL;
+  private root: string = 'data';
 
   constructor() {
   }
 
   getProfileData(username: string): Promise<any> {
     return new Promise((resolve, reject) => {
-      const URL = `${this.protocol}://${this.baseURL}/?username=${username}`;
+      const URL = `${this.protocol}://${this.baseURL}/${this.root}/?username=${username}`;
       request.get(
         URL,
         {

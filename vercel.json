@@ -1,46 +1,54 @@
 {
   "builds": [
     {
-      "src": "./src/routes/education.ts",
+      "src": "./src/scraper-server/index.ts",
       "use": "@now/node"
     },
     {
-      "src": "./src/routes/experience.ts",
+      "src": "./src/images-renderer/routes/education.ts",
       "use": "@now/node"
     },
     {
-      "src": "./src/routes/languages.ts",
+      "src": "./src/images-renderer/routes/experience.ts",
       "use": "@now/node"
     },
     {
-      "src": "./src/routes/skills.ts",
+      "src": "./src/images-renderer/routes/languages.ts",
       "use": "@now/node"
     },
     {
-      "src": "./src/routes/user.ts",
+      "src": "./src/images-renderer/routes/skills.ts",
+      "use": "@now/node"
+    },
+    {
+      "src": "./src/images-renderer/routes/user.ts",
       "use": "@now/node"
     }
   ],
   "routes": [
     {
+      "src": "/data",
+      "dest": "./src/scraper-server/index.ts"
+    },
+    {
       "src": "/education",
-      "dest": "/src/routes/education.ts"
+      "dest": "/src/images-renderer/routes/education.ts"
     },
     {
       "src": "/experience",
-      "dest": "/src/routes/experience.ts"
+      "dest": "/src/images-renderer/routes/experience.ts"
     },
     {
       "src": "/languages",
-      "dest": "/src/routes/languages.ts"
+      "dest": "/src/images-renderer/routes/languages.ts"
     },
     {
       "src": "/skills",
-      "dest": "/src/routes/skills.ts"
+      "dest": "/src/images-renderer/routes/skills.ts"
     },
     {
       "src": "/user",
-      "dest": "/src/routes/user.ts"
+      "dest": "/src/images-renderer/routes/user.ts"
     }
   ]
 }
