@@ -18,7 +18,7 @@ class API {
           headers: this.getHeaders(),
         },
         (error, response, body) => {
-          console.log('XXXXXXXXXXXXXX', body);
+          console.log('XXXXXXXXXXXXXXXX', `${this.protocol}://${this.baseURL}/${this.root}/?username=${username}`);
           if (body) {
             const data = JSON.parse(body);
             if (_.get(data, 'result')) {
