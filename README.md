@@ -59,7 +59,7 @@ You can deploy and use this project without any errors on your own Vercel instan
  <summary><b>Steps  🔨 </b></summary>
  
  1. Go to [vercel.com](https://vercel.com/)
- 1. Click on `Log in`  
+ 1. Click on `Login`  
    ![](https://files.catbox.moe/tct1wg.png)
  1. Sign in with GitHub by pressing `Continue with GitHub`  
    ![](https://files.catbox.moe/btd78j.jpeg)
