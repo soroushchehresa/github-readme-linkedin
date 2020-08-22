@@ -18,8 +18,5 @@
   },
   "include": [
     "src/**/*"
-  ],
-  "exclude": [
-    "src/scraper-server/scraper.ts"
   ]
 }
