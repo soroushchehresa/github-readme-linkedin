@@ -1,6 +1,10 @@
 {
   "builds": [
     {
+      "src": "./src/images-renderer/routes/index.ts",
+      "use": "@now/node"
+    },
+    {
       "src": "./src/scraper-server/index.ts",
       "use": "@now/node"
     },
@@ -26,6 +30,10 @@
     }
   ],
   "routes": [
+    {
+      "src": "/",
+      "dest": "/src/images-renderer/routes/index.ts",
+    },
     {
       "src": "/data",
       "dest": "/src/scraper-server/index.ts"
