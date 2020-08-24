@@ -74,6 +74,6 @@ You can deploy and use this project without any errors on your own [Vercel](http
 
 ![https://vercel.com](https://res.cloudinary.com/anuraghazra/image/upload/v1597827714/powered-by-vercel_1_ug4uro.svg)
 
-**Contributions are welcome!**
+**Contributions are welcomed!**
 
 **Made with :heart: and TypeScript.**
