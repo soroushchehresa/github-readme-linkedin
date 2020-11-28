@@ -10,11 +10,8 @@ Get dynamically generated images from your LinkedIn profile on your GitHub READM
 
 <br>
 
-## Demo
-[Example profile README](https://github.com/ssoroushhh)
-
 ## Recommendation
-If you want to use this project on your GitHub profile, I recommend you [fork and deploy it to your own Vercel instance](https://github.com/soroushchehresa/github-readme-linkedin/#Deploy) and use this project from your personal URLs because [`github-readme-linkedin.vercel.app`](https://github-readme-linkedin.vercel.app) hosted on [Vercel](https://vercel.com) free plan and used by many people, therefore it could be break at any time!
+If you want to use this project on your GitHub profile, I recommend you [fork and deploy it to your own Vercel instance](https://github.com/soroushchehresa/github-readme-linkedin/#Deploy) and use this project from your personal URLs.
 
 Check out [this issue](https://github.com/soroushchehresa/github-readme-linkedin/issues/1) for more information...
 
@@ -71,8 +68,6 @@ You can deploy and use this project without any errors on your own [Vercel](http
 - [Serverless](https://vercel.com)
 
 <br>
-
-![https://vercel.com](https://res.cloudinary.com/anuraghazra/image/upload/v1597827714/powered-by-vercel_1_ug4uro.svg)
 
 **Contributions are welcomed!**
 
