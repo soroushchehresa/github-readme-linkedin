@@ -20,18 +20,18 @@ Check out [this issue](https://github.com/soroushchehresa/github-readme-linkedin
 
 ## Usage
 ```MD
-<img src="[YOUR_OWN_VERCEL_PROJECT_URL]/[METHOD]?username=[YOUR_LINKEDIN_USERNAME]" />
+<img src="[YOUR_DOMAIN]/[METHOD]?username=[YOUR_LINKEDIN_USERNAME]" />
 ```
 
 ## Methods
 
 |    URL    |                   Example                   |        Description         |
 | ---------- | ------------------------------------------- | -------------------------- |
-| `/experience` | `[YOUR_OWN_VERCEL_PROJECT_URL]/experience?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn experience section. |
-| `/education` | `[YOUR_OWN_VERCEL_PROJECT_URL]/education?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn education section. |
-| `/skills` | `[YOUR_OWN_VERCEL_PROJECT_URL]/skills?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn skills section. |
-| `/languages` | `[YOUR_OWN_VERCEL_PROJECT_URL]/languages?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn languages section. |
-| `/user` | `[YOUR_OWN_VERCEL_PROJECT_URL]/user?username=[YOUR_LINKEDIN_USERNAME]` | Your Fullname, Headline and Location. |
+| `/experience` | `[YOUR_DOMAIN]/experience?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn experience section. |
+| `/education` | `[YOUR_DOMAIN]/education?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn education section. |
+| `/skills` | `[YOUR_DOMAIN]/skills?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn skills section. |
+| `/languages` | `[YOUR_DOMAIN]/languages?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn languages section. |
+| `/user` | `[YOUR_DOMAIN]/user?username=[YOUR_LINKEDIN_USERNAME]` | Your Fullname, Headline and Location. |
 
 
 ## Parameters
