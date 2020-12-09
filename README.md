@@ -18,14 +18,14 @@ If you want to use this project on your GitHub profile, I recommend you [fork an
 
 Check out [this issue](https://github.com/soroushchehresa/github-readme-linkedin/issues/1) for more information...
 
-## Example
-```MD
-<img src="https://github-readme-linkedin.vercel.app/experience?username=soroush-chehresa" />
-```
-
 ## Usage
 ```MD
 <img src="[YOUR_DOMAIN]/[METHOD]?username=[YOUR_LINKEDIN_USERNAME]" />
+```
+
+## Example
+```MD
+<img src="https://github-readme-linkedin.vercel.app/experience?username=soroush-chehresa" />
 ```
 
 ## Methods
