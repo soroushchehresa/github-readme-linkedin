@@ -1,10 +1,10 @@
 import express from 'express';
+import dotenv from 'dotenv';
 import experience from './routes/experience';
 import education from './routes/education';
 import skills from './routes/skills';
 import languages from './routes/languages';
 import user from './routes/user';
-import dotenv from 'dotenv';
 
 const app = express();
 dotenv.config();
