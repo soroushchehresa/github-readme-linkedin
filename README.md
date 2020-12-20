@@ -45,7 +45,7 @@ Check out [this issue](https://github.com/soroushchehresa/github-readme-linkedin
 | username   | ?username=[YOUR_LINKEDIN_USERNAME]          | Your LinkedIn username.    | YES       |
 | limit      | ?username=[YOUR_LINKEDIN_USERNAME]&limit=10 | Count of the lists items.  | NO        |
 
-## Deploy
+## Deploy your own
 You can deploy and use this project without any errors on your own [Vercel](https://vercel.com) instance by the following steps:
 <details>
  <summary><b>Steps  🔨 </b></summary>
