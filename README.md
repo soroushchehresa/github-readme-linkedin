@@ -74,7 +74,3 @@ You can deploy and use this project without any errors on your own [Vercel](http
 - [Serverless](https://vercel.com)
 
 <br>
-
-**Contributions are welcomed!**
-
-**Made with :heart: and TypeScript.**
