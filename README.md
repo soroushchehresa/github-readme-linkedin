@@ -18,15 +18,21 @@ If you want to use this project on your GitHub profile, I recommend you [fork an
 
 Check out [this issue](https://github.com/soroushchehresa/github-readme-linkedin/issues/1) for more information...
 
+<br>
+
 ## Usage
 ```MD
 <img src="[YOUR_DOMAIN]/[METHOD]?username=[YOUR_LINKEDIN_USERNAME]" />
 ```
 
+<br>
+
 ## Example
 ```MD
 <img src="https://github-readme-linkedin.vercel.app/experience?username=soroush-chehresa" />
 ```
+
+<br>
 
 ## Methods
 
@@ -38,12 +44,15 @@ Check out [this issue](https://github.com/soroushchehresa/github-readme-linkedin
 | `/languages` | `[YOUR_DOMAIN]/languages?username=[YOUR_LINKEDIN_USERNAME]` | Your LinkedIn languages section. |
 | `/user` | `[YOUR_DOMAIN]/user?username=[YOUR_LINKEDIN_USERNAME]` | Your Fullname, Headline and Location. |
 
+<br>
 
 ## Parameters
 |    Name    |                   Example                   |        Description         |  Required |
 | ---------- | ------------------------------------------- | -------------------------- | --------- |
 | username   | ?username=[YOUR_LINKEDIN_USERNAME]          | Your LinkedIn username.    | YES       |
 | limit      | ?username=[YOUR_LINKEDIN_USERNAME]&limit=10 | Count of the lists items.  | NO        |
+
+<br>
 
 ## Deploy your own
 You can deploy and use this project without any errors on your own [Vercel](https://vercel.com) instance by the following steps:
@@ -67,10 +76,10 @@ You can deploy and use this project without any errors on your own [Vercel](http
  1. You're good to go. See your domains to use the API!
 </details>
 
+<br>
+
 ## Technologies
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [Node.js](https://github.com/nodejs/node)
 - [Express.js](https://github.com/expressjs/express)
 - [Serverless](https://vercel.com)
-
-<br>
