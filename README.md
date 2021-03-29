@@ -13,12 +13,13 @@ A serverless application to get dynamically generated images from your LinkedIn 
 <br>
 <br>
 
+## Demo 
+[GitHub profile README](https://github.com/ssoroushhh)
+
+<br>
+
 ## Usage
 If you want to use this project on your GitHub profile, I recommend you [fork and deploy it to your own Vercel instance](https://github.com/soroushchehresa/github-readme-linkedin/#deploy-your-own) and use this project from your own URLs.
-
-```MD
-<img src="[YOUR_DOMAIN]/[METHOD]?username=[YOUR_LINKEDIN_USERNAME]" />
-```
 
 <br>
 
