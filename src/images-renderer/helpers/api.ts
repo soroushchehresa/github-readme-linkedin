@@ -2,9 +2,9 @@ import request from 'request';
 import _ from 'lodash';
 
 class API {
-  private protocol: string = 'https' || process.env.API_PROTOCOL;
-  private baseURL: string = 'github-readme-linkedin.vercel.app' || process.env.API_BASE_URL;
-  private root: string = 'data' || process.env.API_ROOT;
+  private protocol: string = process.env.API_PROTOCOL || 'https';
+  private baseURL: string = process.env.API_BASE_URL || 'github-readme-linkedin.vercel.app';
+  private root: string = process.env.API_ROOT || 'data';
 
   constructor() {
   }
