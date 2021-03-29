@@ -2,31 +2,31 @@
   "builds": [
     {
       "src": "./src/images-renderer/routes/index.ts",
-      "use": "@now/node"
+      "use": "@vercel/node"
     },
     {
       "src": "./src/scraper-server/index.ts",
-      "use": "@now/node"
+      "use": "@vercel/node"
     },
     {
       "src": "./src/images-renderer/routes/education.ts",
-      "use": "@now/node"
+      "use": "@vercel/node"
     },
     {
       "src": "./src/images-renderer/routes/experience.ts",
-      "use": "@now/node"
+      "use": "@vercel/node"
     },
     {
       "src": "./src/images-renderer/routes/languages.ts",
-      "use": "@now/node"
+      "use": "@vercel/node"
     },
     {
       "src": "./src/images-renderer/routes/skills.ts",
-      "use": "@now/node"
+      "use": "@vercel/node"
     },
     {
       "src": "./src/images-renderer/routes/user.ts",
-      "use": "@now/node"
+      "use": "@vercel/node"
     }
   ],
   "routes": [
