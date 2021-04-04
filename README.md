@@ -53,7 +53,7 @@ If you want to use this project on your GitHub profile, I recommend you [fork an
 ## Deploy your own
 You can deploy and use this project without any errors on your own [Vercel](https://vercel.com) instance by the following steps:
 <details>
- <summary><b>Steps  🔨 </b></summary>
+ <summary><b>Guide on setting up Vercel 🔨 </b></summary>
  
  1. Go to [vercel.com](https://vercel.com)
  1. Click on `Login`  
