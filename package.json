@@ -45,6 +45,6 @@
     "start": "node dist/index.js"
   },
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   }
 }
